@@ -829,7 +829,7 @@
 		)
 		(uuid "6869e633-6863-4a84-b463-718365484623")
 	)
-	(label "5V"
+	(label "3V3"
 		(at 185.42 118.11 0)
 		(effects
 			(font
@@ -839,7 +839,7 @@
 		)
 		(uuid "9021f098-8b40-46c9-b82f-6c4b81118bf2")
 	)
-	(label "5V"
+	(label "3V3"
 		(at 185.42 102.87 0)
 		(effects
 			(font
@@ -869,7 +869,7 @@
 		)
 		(uuid "de2243d3-450e-468a-b5cc-612287d9675c")
 	)
-	(label "5V"
+	(label "3V3"
 		(at 146.05 102.87 0)
 		(effects
 			(font
