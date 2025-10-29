@@ -178,8 +178,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "RTC1"
+				(at 0.762 -18.542 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -187,15 +187,15 @@
 				)
 			)
 			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
+				(at 0.762 -16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+				(at 4.064 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -213,20 +213,12 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
+				(at 2.032 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -296,6 +288,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 0 2.032)
 					(mid -0.5058 2.54)
@@ -336,6 +340,18 @@
 					(start 0 -5.588)
 					(mid -0.5058 -5.08)
 					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -409,6 +425,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1192,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 60.96) (xy 59.69 60.96)
+			(xy 57.15 53.34) (xy 60.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1322,7 +1356,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 36.83) (xy 58.42 36.83)
+			(xy 55.88 36.83) (xy 64.77 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1371,6 +1405,16 @@
 		(uuid "09bf8802-a402-472a-adf8-df961e5edd50")
 	)
 	(label "GND"
+		(at 106.68 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37675b95-8cec-423e-9225-4afc269ca66f")
+	)
+	(label "GND"
 		(at 91.44 101.6 0)
 		(effects
 			(font
@@ -1401,7 +1445,7 @@
 		(uuid "65539501-7a92-45d1-9ed8-2e36499057fd")
 	)
 	(label "5V"
-		(at 59.69 60.96 0)
+		(at 60.96 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1482,7 +1526,18 @@
 		)
 		(uuid "2e759295-7984-48b3-adc9-789c61ca644e")
 	)
-	(hierarchical_label "IO23-L"
+	(hierarchical_label "5V"
+		(shape input)
+		(at 64.77 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34f49447-bb9e-46e0-bd76-13749305a85b")
+	)
+	(hierarchical_label "IO23"
 		(shape input)
 		(at 69.85 78.74 0)
 		(effects
@@ -1504,7 +1559,7 @@
 		)
 		(uuid "4e9b2459-6bc3-4297-a0d6-57f02c6e90db")
 	)
-	(hierarchical_label "IO23"
+	(hierarchical_label "IO23-H-SCL"
 		(shape input)
 		(at 69.85 55.88 0)
 		(effects
@@ -1515,7 +1570,7 @@
 		)
 		(uuid "50fff65c-e2cb-4d71-a891-9477024b48c6")
 	)
-	(hierarchical_label "IO23"
+	(hierarchical_label "IO23-H-SCL"
 		(shape input)
 		(at 95.25 93.98 0)
 		(effects
@@ -1526,7 +1581,7 @@
 		)
 		(uuid "574c57e0-4e5d-45c4-bbeb-1e77f61866e3")
 	)
-	(hierarchical_label "IO23-L"
+	(hierarchical_label "IO23"
 		(shape input)
 		(at 67.31 93.98 180)
 		(effects
@@ -1537,7 +1592,7 @@
 		)
 		(uuid "70614c5d-195e-47c1-bc4e-066132578f15")
 	)
-	(hierarchical_label "IO21-L"
+	(hierarchical_label "IO21"
 		(shape input)
 		(at 69.85 81.28 0)
 		(effects
@@ -1548,7 +1603,7 @@
 		)
 		(uuid "90b37a9c-f025-415b-8678-0ec46c7a4f84")
 	)
-	(hierarchical_label "IO21-L"
+	(hierarchical_label "IO21"
 		(shape input)
 		(at 67.31 96.52 180)
 		(effects
@@ -1559,7 +1614,7 @@
 		)
 		(uuid "9c6efc67-4696-4217-8cdb-899ea39d4836")
 	)
-	(hierarchical_label "IO21"
+	(hierarchical_label "IO21-H-SDA"
 		(shape input)
 		(at 95.25 96.52 0)
 		(effects
@@ -1603,7 +1658,7 @@
 		)
 		(uuid "c6f23f92-983b-49a7-87e2-2dbdc420dbea")
 	)
-	(hierarchical_label "IO21"
+	(hierarchical_label "IO21-H-SDA"
 		(shape input)
 		(at 69.85 58.42 0)
 		(effects
@@ -1625,7 +1680,7 @@
 		)
 		(uuid "cd36187d-29ee-4bdd-a10a-7b0832a60cbe")
 	)
-	(hierarchical_label "IO23"
+	(hierarchical_label "IO23-H-SCL"
 		(shape input)
 		(at 68.58 31.75 0)
 		(effects
@@ -1636,7 +1691,7 @@
 		)
 		(uuid "cf087a83-94f3-405d-953d-24122833acc3")
 	)
-	(hierarchical_label "IO21"
+	(hierarchical_label "IO21-H-SDA"
 		(shape input)
 		(at 68.58 34.29 0)
 		(effects
@@ -1998,7 +2053,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b23a8919-ff86-4747-b4b5-d278d6faa2bb")
 		(property "Reference" "U2"
 			(at 82.55 87.63 0)
@@ -2017,12 +2071,11 @@
 			)
 		)
 		(property "Footprint" "Shifter4ch:Shifter4ch"
-			(at 95.25 92.71 0)
+			(at 83.82 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -2232,10 +2285,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7c78856-cea0-41a7-828b-cf181d480ce6")
 		(property "Reference" "RTC1"
-			(at 52.705 50.8 0)
+			(at 52.578 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2295,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 52.705 53.34 0)
+			(at 52.324 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2303,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 52.07 60.96 0)
+			(at 48.006 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2321,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 52.07 60.96 0)
+			(at 50.038 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,6 +2340,9 @@
 		)
 		(pin "3"
 			(uuid "781d9951-bcee-4120-9992-41d99e95d968")
+		)
+		(pin "5"
+			(uuid "5b82fcfa-1a38-43ec-801c-e19305e3b3d9")
 		)
 		(instances
 			(project ""
