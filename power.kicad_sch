@@ -956,7 +956,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U4"
+			(property "Reference" "UP7"
 				(at 22.86 10.16 0)
 				(effects
 					(font
@@ -1076,24 +1076,6 @@
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 0 -2.54 0)
 					(length 7.62)
@@ -1150,7 +1132,25 @@
 				)
 			)
 			(symbol "XL1509-ADJ_1_1"
-				(pin bidirectional line
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 45.72 0 180)
 					(length 7.62)
 					(name "GND"
@@ -1168,7 +1168,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 45.72 -2.54 180)
 					(length 7.62)
 					(name "GND"
@@ -1186,7 +1186,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 45.72 -5.08 180)
 					(length 7.62)
 					(name "GND"
@@ -1204,7 +1204,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 45.72 -7.62 180)
 					(length 7.62)
 					(name "GND"
@@ -1453,6 +1453,12 @@
 		(uuid "5facd319-9b94-484b-9019-6de7dda147d2")
 	)
 	(junction
+		(at 88.9 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "856e2b80-1a50-41f9-94e4-4ee32322a649")
+	)
+	(junction
 		(at 88.9 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1511,6 +1517,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dff6665e-2a61-4f0e-bcb5-6351709654b9")
+	)
+	(junction
+		(at 175.26 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9b9a2ba-3b70-49c4-a8af-5513283f2e0a")
 	)
 	(junction
 		(at 219.71 92.71)
@@ -1616,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 83.82) (xy 175.26 92.71)
+			(xy 175.26 83.82) (xy 175.26 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1656,7 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 64.77) (xy 90.17 64.77)
+			(xy 80.01 64.77) (xy 88.9 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1776,6 +1788,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 64.77) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa2ba36-8ddc-4751-8008-9a4dd6a7aa80")
+	)
+	(wire
+		(pts
 			(xy 217.17 83.82) (xy 219.71 83.82)
 		)
 		(stroke
@@ -1833,6 +1855,26 @@
 			(type default)
 		)
 		(uuid "70d80bf8-06ed-422f-b9bd-183597cefa83")
+	)
+	(wire
+		(pts
+			(xy 175.26 87.63) (xy 175.26 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d77938-dc61-48d3-9ee5-85f94de57244")
+	)
+	(wire
+		(pts
+			(xy 88.9 58.42) (xy 88.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c67b625-21bd-4197-af12-9551e0aede52")
 	)
 	(wire
 		(pts
@@ -1913,6 +1955,16 @@
 			(type default)
 		)
 		(uuid "acf57010-530b-428c-9913-818ed7ef71c8")
+	)
+	(wire
+		(pts
+			(xy 170.18 87.63) (xy 175.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae437849-972b-4fc7-8a93-30da02245815")
 	)
 	(wire
 		(pts
@@ -2064,6 +2116,16 @@
 		)
 		(uuid "0e9ece0a-997d-466b-8e28-b4ed579d8045")
 	)
+	(label "12V"
+		(at 88.9 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "242d316f-6b56-4cf5-80fe-1f9967905aca")
+	)
 	(label "GND"
 		(at 81.28 106.68 0)
 		(effects
@@ -2165,6 +2227,17 @@
 			(justify left)
 		)
 		(uuid "4dfc7966-47e8-465e-b678-710a1e5d2146")
+	)
+	(hierarchical_label "12V"
+		(shape input)
+		(at 170.18 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5b17a4a-d8a1-44b8-ab9c-992c1e2a061b")
 	)
 	(hierarchical_label "5V"
 		(shape input)

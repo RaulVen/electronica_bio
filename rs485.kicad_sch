@@ -1577,6 +1577,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 130.81) (xy 93.98 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6620aea3-27b9-4f5c-9b81-b1d2e8ea7f58")
+	)
+	(wire
+		(pts
 			(xy 83.82 142.24) (xy 92.71 142.24)
 		)
 		(stroke
@@ -2355,6 +2365,16 @@
 		)
 		(uuid "e2a58c29-bc4b-4321-8604-27858d88829e")
 	)
+	(label "12V"
+		(at 93.98 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e84b9988-4953-4764-a523-43a8ce0b6e9f")
+	)
 	(label "A2+"
 		(at 196.85 45.72 0)
 		(effects
@@ -2670,6 +2690,17 @@
 			(justify right)
 		)
 		(uuid "bab25357-51d0-409b-9641-18f65a2a421c")
+	)
+	(hierarchical_label "12V"
+		(shape input)
+		(at 82.55 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf51453b-7744-4090-ab0b-bcba1ae3fc64")
 	)
 	(symbol
 		(lib_id "Diode:1N5819WS")
