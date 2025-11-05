@@ -2400,7 +2400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "286e2efd-8358-4f7d-b805-9465829a9819")
-		(property "Reference" "DP1"
+		(property "Reference" "SDP1"
 			(at 72.39 105.0924 90)
 			(effects
 				(font
@@ -2454,7 +2454,7 @@
 		(instances
 			(project ""
 				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/2927ccdf-c553-42db-bc8e-c4c5c9181f4b"
-					(reference "DP1")
+					(reference "SDP1")
 					(unit 1)
 				)
 			)
