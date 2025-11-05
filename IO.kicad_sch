@@ -839,6 +839,16 @@
 		)
 		(uuid "9021f098-8b40-46c9-b82f-6c4b81118bf2")
 	)
+	(label "5V"
+		(at 143.51 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f41f37b-9743-4718-a904-95f3bfdabd0e")
+	)
 	(label "3V3"
 		(at 185.42 102.87 0)
 		(effects
@@ -868,16 +878,6 @@
 			(justify left bottom)
 		)
 		(uuid "de2243d3-450e-468a-b5cc-612287d9675c")
-	)
-	(label "3V3"
-		(at 146.05 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0355cff-4d86-4520-9c83-8cb1a59b1527")
 	)
 	(hierarchical_label "5V"
 		(shape input)
