@@ -1,0 +1,21 @@
+# Archivos de respaldo y temporales de KiCad
+*.bak
+*.bck
+*-bak
+*.kicad_prl
+sym-lib-table-bak
+fp-lib-table-bak
+__pycache__/
+
+# Carpetas de respaldo automáticas
+*-backups/
+
+# Archivos de cache y logs
+fp-info-cache
+*.zip
+*.tar.gz
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
