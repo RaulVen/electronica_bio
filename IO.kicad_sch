@@ -481,16 +481,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 59.69) (xy 187.96 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "008ba6a3-7f16-45ba-8db8-d4d6750a1ea6")
-	)
-	(wire
-		(pts
 			(xy 177.8 120.65) (xy 187.96 120.65)
 		)
 		(stroke
@@ -601,16 +591,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 59.69) (xy 187.96 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e24354a-376b-41bf-8970-91383494c870")
-	)
-	(wire
-		(pts
 			(xy 135.89 72.39) (xy 146.05 72.39)
 		)
 		(stroke
@@ -658,16 +638,6 @@
 			(type default)
 		)
 		(uuid "a5e3d9c4-1fb3-468d-8d5d-4b69a9c7fc47")
-	)
-	(wire
-		(pts
-			(xy 177.8 57.15) (xy 187.96 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a816e65b-f642-4ad3-8f52-910ddeba0c8f")
 	)
 	(wire
 		(pts
@@ -988,17 +958,6 @@
 			(justify left)
 		)
 		(uuid "8376e843-fadf-4177-8d70-76a7cd8afa20")
-	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 187.96 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e5985228-b267-4cfa-ae7c-988a65d3e20b")
 	)
 	(hierarchical_label "IO22"
 		(shape input)
@@ -1764,72 +1723,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 187.96 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87c7274e-1188-488d-8416-1e13cbd94524")
-		(property "Reference" "#PWR020"
-			(at 187.96 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d649fc0-9d19-42ed-9605-ccc63ef2aea1")
-		)
-		(instances
-			(project "bioreactor_v1"
-				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/3a80b32f-1182-4ad6-8025-c864af59e0be"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 132.08 132.08 180)
 		(unit 1)
@@ -2030,74 +1923,6 @@
 			(project "bioreactor_v1"
 				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/3a80b32f-1182-4ad6-8025-c864af59e0be"
 					(reference "IO15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 172.72 59.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b29a87a7-97b6-436b-b216-420536379b4e")
-		(property "Reference" "PWR_3V3"
-			(at 173.355 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 173.355 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 172.72 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 172.72 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9f0b4670-148e-41a9-8f7d-3fb791ccf803")
-		)
-		(pin "1"
-			(uuid "7e18cc4b-9cec-47dc-9886-cef98f1309f2")
-		)
-		(instances
-			(project "bioreactor_v1"
-				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/3a80b32f-1182-4ad6-8025-c864af59e0be"
-					(reference "PWR_3V3")
 					(unit 1)
 				)
 			)
