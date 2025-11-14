@@ -1266,22 +1266,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 13.7 0)
+			(property "Reference" "U4"
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "ULN2003AID"
-				(at -12.7 -16.7 0)
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "ULN2003AID:SOIC127P600X175-16N"
@@ -1674,7 +1672,9 @@
 						)
 					)
 				)
-				(pin output line
+			)
+			(symbol "ULN2003AID_1_0"
+				(pin power_in line
 					(at 17.78 -7.62 180)
 					(length 5.08)
 					(name "COM"
