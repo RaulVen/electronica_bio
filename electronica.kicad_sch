@@ -1237,6 +1237,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
+=======
+			(xy 29.21 148.59) (xy 36.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16da96c3-f9dc-4f1b-926f-484f6ef0b388")
+	)
+	(wire
+		(pts
+>>>>>>> dev
 			(xy 229.87 134.62) (xy 233.68 134.62)
 		)
 		(stroke
@@ -1337,6 +1350,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
+=======
+			(xy 33.02 49.53) (xy 36.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d474ab-38d7-4b8c-85e0-8a5f95d081f2")
+	)
+	(wire
+		(pts
+>>>>>>> dev
 			(xy 199.39 132.08) (xy 203.2 132.08)
 		)
 		(stroke
@@ -1985,6 +2011,19 @@
 		)
 		(uuid "19520ab0-ab1b-42e9-9068-6e18d707d898")
 	)
+<<<<<<< HEAD
+=======
+	(label "12V"
+		(at 29.21 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ea15a04-6f9b-4a02-bd36-8331ef6768fd")
+	)
+>>>>>>> dev
 	(label "5V"
 		(at 29.21 74.93 0)
 		(effects
@@ -2411,6 +2450,31 @@
 			)
 		)
 	)
+<<<<<<< HEAD
+=======
+	(global_label "12V"
+		(shape input)
+		(at 33.02 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "352e0901-d6d9-4a64-a874-4e43c5270942")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.5272 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+>>>>>>> dev
 	(global_label "GND"
 		(shape input)
 		(at 234.95 142.24 0)
@@ -4292,6 +4356,19 @@
 				(justify right)
 			)
 		)
+<<<<<<< HEAD
+=======
+		(pin "12V" input
+			(at 36.83 49.53 180)
+			(uuid "7a47334e-30a6-4374-8540-0071cf45bd30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+>>>>>>> dev
 		(instances
 			(project "electronica"
 				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009"
@@ -4354,6 +4431,19 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
+=======
+		(pin "12V" input
+			(at 36.83 148.59 180)
+			(uuid "3b38bffd-d7a3-4f3c-801c-6896aeef1128")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+>>>>>>> dev
 		(instances
 			(project "electronica"
 				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009"

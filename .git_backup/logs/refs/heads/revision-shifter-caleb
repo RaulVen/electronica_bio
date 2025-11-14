@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 4057438de4e3b4bb23910601334a641cc7913883 Eduardo Santos <3dmena@gmail.com> 1761811993 -0600	branch: Created from HEAD
+4057438de4e3b4bb23910601334a641cc7913883 80df1e591c24aa00eb6c2900a9cf565e62911a3e Eduardo Santos <3dmena@gmail.com> 1761900223 -0600	commit: feat: integrated rtc ldc i2c / fixed 12v power line rs485 / output com pin -> input power type
+80df1e591c24aa00eb6c2900a9cf565e62911a3e d7a0c179165045ae6da64e330e9c9aa1484b3d79 Eduardo Santos <3dmena@gmail.com> 1762322159 -0600	commit: draft:updating pcb dimentions
+d7a0c179165045ae6da64e330e9c9aa1484b3d79 83538d1828d1df6087b18702f32f9082fcb11b64 Eduardo Santos <3dmena@gmail.com> 1762337988 -0600	commit: feat: position of the components improved

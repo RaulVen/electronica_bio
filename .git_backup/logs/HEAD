@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 bed5f3ef6e3102461484277d53df35037a296203 Eduardo Santos <3dmena@gmail.com> 1761635218 -0600	clone: from github.com:RaulVen/electronica_bio.git
+bed5f3ef6e3102461484277d53df35037a296203 bed5f3ef6e3102461484277d53df35037a296203 Eduardo Santos <3dmena@gmail.com> 1761781799 -0600	checkout: moving from main to shifter-ingetration
+bed5f3ef6e3102461484277d53df35037a296203 bed5f3ef6e3102461484277d53df35037a296203 Eduardo Santos <3dmena@gmail.com> 1761781808 -0600	checkout: moving from shifter-ingetration to main
+bed5f3ef6e3102461484277d53df35037a296203 4057438de4e3b4bb23910601334a641cc7913883 Eduardo Santos <3dmena@gmail.com> 1761781822 -0600	pull: Fast-forward
+4057438de4e3b4bb23910601334a641cc7913883 4057438de4e3b4bb23910601334a641cc7913883 Eduardo Santos <3dmena@gmail.com> 1761781868 -0600	checkout: moving from main to shifter-caleb-integration
+4057438de4e3b4bb23910601334a641cc7913883 4057438de4e3b4bb23910601334a641cc7913883 Eduardo Santos <3dmena@gmail.com> 1761811993 -0600	checkout: moving from shifter-caleb-integration to revision-shifter-caleb
+4057438de4e3b4bb23910601334a641cc7913883 4057438de4e3b4bb23910601334a641cc7913883 Eduardo Santos <3dmena@gmail.com> 1761871341 -0600	checkout: moving from revision-shifter-caleb to shifter-fixes
+4057438de4e3b4bb23910601334a641cc7913883 4057438de4e3b4bb23910601334a641cc7913883 Eduardo Santos <3dmena@gmail.com> 1761880082 -0600	checkout: moving from shifter-fixes to revision-shifter-caleb
+4057438de4e3b4bb23910601334a641cc7913883 4057438de4e3b4bb23910601334a641cc7913883 Eduardo Santos <3dmena@gmail.com> 1761880089 -0600	checkout: moving from revision-shifter-caleb to shifter-fixes
+4057438de4e3b4bb23910601334a641cc7913883 dd3635260817d049173913508107a35ab450f41e Eduardo Santos <3dmena@gmail.com> 1761880100 -0600	commit: draft: updating level sh
+dd3635260817d049173913508107a35ab450f41e 4057438de4e3b4bb23910601334a641cc7913883 Eduardo Santos <3dmena@gmail.com> 1761880105 -0600	checkout: moving from shifter-fixes to revision-shifter-caleb
+4057438de4e3b4bb23910601334a641cc7913883 dd3635260817d049173913508107a35ab450f41e Eduardo Santos <3dmena@gmail.com> 1761880323 -0600	checkout: moving from revision-shifter-caleb to shifter-fixes
+dd3635260817d049173913508107a35ab450f41e 4057438de4e3b4bb23910601334a641cc7913883 Eduardo Santos <3dmena@gmail.com> 1761880769 -0600	checkout: moving from shifter-fixes to revision-shifter-caleb
+4057438de4e3b4bb23910601334a641cc7913883 80df1e591c24aa00eb6c2900a9cf565e62911a3e Eduardo Santos <3dmena@gmail.com> 1761900223 -0600	commit: feat: integrated rtc ldc i2c / fixed 12v power line rs485 / output com pin -> input power type
+80df1e591c24aa00eb6c2900a9cf565e62911a3e d7a0c179165045ae6da64e330e9c9aa1484b3d79 Eduardo Santos <3dmena@gmail.com> 1762322159 -0600	commit: draft:updating pcb dimentions
+d7a0c179165045ae6da64e330e9c9aa1484b3d79 d7a0c179165045ae6da64e330e9c9aa1484b3d79 Eduardo Santos <3dmena@gmail.com> 1762324511 -0600	checkout: moving from revision-shifter-caleb to revision-shifter-caleb
+d7a0c179165045ae6da64e330e9c9aa1484b3d79 83538d1828d1df6087b18702f32f9082fcb11b64 Eduardo Santos <3dmena@gmail.com> 1762337988 -0600	commit: feat: position of the components improved
