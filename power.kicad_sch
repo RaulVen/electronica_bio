@@ -2910,10 +2910,6 @@
 		)
 		(instances
 			(project ""
-				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/0dc37c15-61f6-49a6-8ea9-a7e139aa7743"
-					(reference "U4")
-					(unit 1)
-				)
 				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/2927ccdf-c553-42db-bc8e-c4c5c9181f4b"
 					(reference "UP7")
 					(unit 1)
