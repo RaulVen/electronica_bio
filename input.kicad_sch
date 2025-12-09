@@ -2402,6 +2402,14 @@
 		(pin "1"
 			(uuid "c2437773-ed85-4774-9e9f-f7d56d7d95eb")
 		)
+		(instances
+			(project "electronica"
+				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
+					(reference "OPT4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
@@ -2479,6 +2487,14 @@
 		)
 		(pin "1"
 			(uuid "53a918f0-d948-4624-8800-d0ce63ae8dda")
+		)
+		(instances
+			(project "electronica"
+				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2558,6 +2574,14 @@
 		(pin "8"
 			(uuid "442d8abb-a1ab-4a9b-8e64-4c6e7d2dc185")
 		)
+		(instances
+			(project "electronica"
+				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Isolator:PC817")
@@ -2626,6 +2650,14 @@
 		)
 		(pin "1"
 			(uuid "86537d93-c968-4999-9e63-4b44fc5afe48")
+		)
+		(instances
+			(project "electronica"
+				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
+					(reference "OPT2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2696,6 +2728,14 @@
 		(pin "1"
 			(uuid "17741319-4a23-4a33-b8cc-339f6ceeeaf9")
 		)
+		(instances
+			(project "electronica"
+				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
+					(reference "OPT3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -2707,7 +2747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d30c4bb3-f438-48b2-a817-8359f2e81726")
-		(property "Reference" "IN4"
+		(property "Reference" "IN2"
 			(at 171.1325 106.68 0)
 			(effects
 				(font
@@ -2765,6 +2805,14 @@
 		(pin "1"
 			(uuid "a1466668-a553-4639-b5d3-4180fedc5786")
 		)
+		(instances
+			(project "electronica"
+				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
+					(reference "IN2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -2776,7 +2824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4c4ab10-3bf6-4cd6-a263-5455da09c986")
-		(property "Reference" "IN1"
+		(property "Reference" "IN3"
 			(at 181.2925 99.06 0)
 			(effects
 				(font
@@ -2834,6 +2882,14 @@
 		(pin "1"
 			(uuid "45cd32f0-f350-4a12-977c-c255e58c6644")
 		)
+		(instances
+			(project "electronica"
+				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
+					(reference "IN3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -2845,7 +2901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d3c774-1b87-4ca3-9e69-e6caa529834a")
-		(property "Reference" "IN3"
+		(property "Reference" "IN4"
 			(at 182.5625 104.14 0)
 			(effects
 				(font
@@ -2903,6 +2959,14 @@
 		(pin "1"
 			(uuid "a8dc7d44-1a62-4f64-86d5-bc15ae352795")
 		)
+		(instances
+			(project "electronica"
+				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
+					(reference "IN4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -2914,7 +2978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d710135a-94e7-4db4-aab8-72085189fb91")
-		(property "Reference" "IN2"
+		(property "Reference" "IN1"
 			(at 171.1325 101.6 0)
 			(effects
 				(font
@@ -2971,6 +3035,14 @@
 		)
 		(pin "1"
 			(uuid "e3442b61-98cf-4161-b771-d15889f59a13")
+		)
+		(instances
+			(project "electronica"
+				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
+					(reference "IN1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3040,6 +3112,14 @@
 		)
 		(pin "1"
 			(uuid "153c9846-1228-4712-b7f3-a728d49637d7")
+		)
+		(instances
+			(project "electronica"
+				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
+					(reference "OPT1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3118,6 +3198,14 @@
 		)
 		(pin "8"
 			(uuid "e2589877-b272-4f41-89fc-06c0be3ac690")
+		)
+		(instances
+			(project "electronica"
+				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

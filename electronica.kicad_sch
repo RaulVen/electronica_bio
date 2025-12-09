@@ -4491,4 +4491,20 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "ULN2003AD.lib")
+			(type other)
+			(data |KLUv/WD3AoUNACaZTiEQ0RwD/181ZIuKngSeyzYx50IAJv9HkByKF/buqtL/vQFIAEYAQwD525l/
+				WdzZ05ZXQnBzUVMW0RO4gJ4AfxmDtwg4RWe9hWUYvLsHPED0DKRkzHyy9Qd6O0ePFdRvUIthbhyi
+				sBRX2yS+ZIrXZVmV2xiPnuiZAnpM9jjZ90SLGTtl1JsHrE5C7q8L8O0WjHeYx619CqTnirZYOcSU
+				Tm5Qj5mIDsfRurjBywW8njV6xDm8jh8GklO0exyWAoNutfl5iKOonCr6mJNKVJVeGqKDXquJktAp
+				d7+9ccPndIKdPuckDzGgz8LDfTs95JBP6fOMFzIMs+ycAZ0QhxG9/dtZIcO4zBJ+QFx1VpJSdaJW
+				qpK1E2I7RX9RO3gmq99KUr/U9DtR6Veq9tfa+luvSVdU6XNW8vSX/vEEPqihfHJSy8+SFMbwRoRu
+				OhEZxGhERCIJJZLhAxjTuwNkGWfRcIe8QbR+Q475aD28Hy+OTtD/hgICg/pjEThCkZmY+RqMIU6a
+				Ji0agGcEGQ7g5jyOg0gc9cYwN8AkgRD4fuEUIPvxn2BT7kGnXwh3FTbIag==|
+			)
+			(checksum "3FE5ED8A621469BC3AB3FD94313DDD53")
+		)
+	)
 )
