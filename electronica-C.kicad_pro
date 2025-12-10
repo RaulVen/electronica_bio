@@ -467,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "electronica.kicad_pro",
+    "filename": "electronica-C.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -766,8 +766,24 @@
       "Root"
     ],
     [
+      "5b7b1883-0956-4642-a84a-0fce661aecfc",
+      "input"
+    ],
+    [
       "b24daec0-e332-4966-b9aa-de928157d88c",
       "output"
+    ],
+    [
+      "2927ccdf-c553-42db-bc8e-c4c5c9181f4b",
+      "power"
+    ],
+    [
+      "3a80b32f-1182-4ad6-8025-c864af59e0be",
+      "IO"
+    ],
+    [
+      "0b63d0b4-e0e1-45d3-af62-471ef499c4cc",
+      "LED"
     ],
     [
       "6f40c62f-5d31-4274-b02a-c88eb047bed6",

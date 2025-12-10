@@ -2507,7 +2507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cfc8732-a800-4c42-adcc-32bef7c0cc78")
-		(property "Reference" "RN2"
+		(property "Reference" "RN2-4"
 			(at 195.58 99.06 90)
 			(effects
 				(font
@@ -2515,7 +2515,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Pack04"
+		(property "Value" "330"
 			(at 195.58 101.6 90)
 			(effects
 				(font
@@ -2577,7 +2577,7 @@
 		(instances
 			(project "electronica"
 				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
-					(reference "RN2")
+					(reference "RN2-4")
 					(unit 1)
 				)
 			)
@@ -3132,7 +3132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9a2ead7-a89b-4cb6-a39c-6b79a9d46930")
-		(property "Reference" "RN1"
+		(property "Reference" "RN1-4"
 			(at 195.58 73.66 90)
 			(effects
 				(font
@@ -3140,7 +3140,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Pack04"
+		(property "Value" "10k"
 			(at 195.58 76.2 90)
 			(effects
 				(font
@@ -3202,7 +3202,7 @@
 		(instances
 			(project "electronica"
 				(path "/a1c80da3-9403-4ec6-a34a-1db23a22b009/5b7b1883-0956-4642-a84a-0fce661aecfc"
-					(reference "RN1")
+					(reference "RN1-4")
 					(unit 1)
 				)
 			)
