@@ -1,0 +1,106 @@
+** Drc report for electronica.kicad_pcb **
+** Created on 2025-12-26T19:24:16-0700 **
+
+** Found 24 DRC violations **
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa B.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(84,9500 mm, 93,7300 mm): Pad PTH 6 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(84,9500 mm, 93,7300 mm): Pad PTH 6 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa B.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(90,0300 mm, 96,2700 mm): Pad PTH 9 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa B.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(95,1100 mm, 93,7300 mm): Pad PTH 14 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(90,0300 mm, 96,2700 mm): Pad PTH 9 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa B.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(102,7300 mm, 93,7300 mm): Pad PTH 20 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(95,1100 mm, 93,7300 mm): Pad PTH 14 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa B.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(110,3500 mm, 96,2700 mm): Pad PTH 25 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(102,7300 mm, 93,7300 mm): Pad PTH 20 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(110,3500 mm, 96,2700 mm): Pad PTH 25 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa B.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(115,4300 mm, 93,7300 mm): Pad PTH 30 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(115,4300 mm, 93,7300 mm): Pad PTH 30 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa B.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(120,5100 mm, 93,7300 mm): Pad PTH 34 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(120,5100 mm, 93,7300 mm): Pad PTH 34 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(128,1300 mm, 96,2700 mm): Pad PTH 39 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa B.Cu; zona recuento mínimo de radios 3; 2 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(128,1300 mm, 96,2700 mm): Pad PTH 39 [GND] de J2
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 1 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(97,7020 mm, 124,6600 mm): Pad PTH 2 [GND] de U1
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa B.Cu; zona recuento mínimo de radios 3; 2 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(59,0000 mm, 129,5400 mm): Pad PTH 3 [GND] de OPT4
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa B.Cu; zona recuento mínimo de radios 3; 2 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(59,0000 mm, 122,5841 mm): Pad PTH 3 [GND] de OPT3
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; 1 radios conectados a una isla aislada)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(88,0220 mm, 120,2800 mm): Pad PTH 8 [GND] de U3
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 2 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(45,6200 mm, 121,1600 mm): Pad PTH 5 [GND] de J3
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 2 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(45,6200 mm, 105,9200 mm): Pad PTH 8 [GND] de J3
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 3; 2 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(45,6200 mm, 90,6800 mm): Pad PTH 11 [GND] de J3
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa B.Cu; zona recuento mínimo de radios 3; 2 real)
+    Anulación local; error
+    @(40,3750 mm, 47,8000 mm): Zone [GND] en F.Cu y B.Cu, priority 0
+    @(130,0220 mm, 115,5800 mm): Pad PTH 1 [GND] de ON/OFF1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
