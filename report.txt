@@ -1,13 +1,12 @@
-Aviso: Corrección del ancho restringida.  El valor razonable de la corrección del ancho debe encontrarse en el rango de [0,000001 mm; 0,203199 mm] para las reglas de diseño actuales.
-Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\electronica-F_Cu.gbr'.
-Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\electronica-B_Cu.gbr'.
-Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\electronica-F_Paste.gbr'.
-Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\electronica-B_Paste.gbr'.
-Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\electronica-F_Silkscreen.gbr'.
-Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\electronica-B_Silkscreen.gbr'.
-Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\electronica-F_Mask.gbr'.
-Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\electronica-B_Mask.gbr'.
-Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\electronica-Edge_Cuts.gbr'.
-Created Gerber job file 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\electronica-job.gbrjob'.
+Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\Tarjeta CZ-Gerber\electronica-F_Cu.gbr'.
+Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\Tarjeta CZ-Gerber\electronica-B_Cu.gbr'.
+Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\Tarjeta CZ-Gerber\electronica-F_Paste.gbr'.
+Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\Tarjeta CZ-Gerber\electronica-B_Paste.gbr'.
+Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\Tarjeta CZ-Gerber\electronica-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\Tarjeta CZ-Gerber\electronica-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\Tarjeta CZ-Gerber\electronica-F_Mask.gbr'.
+Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\Tarjeta CZ-Gerber\electronica-B_Mask.gbr'.
+Plotted to 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\Tarjeta CZ-Gerber\electronica-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\ingca\OneDrive\Desktop\Presicion\CajadeZapatos\Tarjeta CZ-Gerber\electronica-job.gbrjob'.
 Info: Done.
 Info: Done.
